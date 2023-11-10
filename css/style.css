@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Raleway', sans-serif;
@@ -123,6 +126,8 @@ h6{
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     font-weight: 600;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .R7 {
@@ -189,6 +194,10 @@ p {
 .logo {
     margin-left: 51px;
 }
+.logoHover{
+    margin-left: 51px;
+    display:none;
+}
 .inline-block > ul, li{
     display:flex;
 }
@@ -197,6 +206,19 @@ p {
 }
 body{
     width:100% auto;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.underline{
+    position: absolute;
+    margin-top: 15px;
+    display: none;
+    
 }
 .navigation{
 background-color: #1e1e1e;
@@ -287,6 +309,9 @@ button {
 .heroButtonM{
    display:none;
 }
+.heroButtonHoverD{
+    display:none;
+}
 .mainBody{
     height:1545px;
     display:flex;
@@ -320,10 +345,13 @@ button {
     width: 1341px;
     height: 467px;
     margin-top: 48px;
+    transition: all 0.3s ease;
 }
 .kahcimage{
     width:664px;
 }
+
+
 .ccaimage{
     width:664px;
 }
@@ -354,7 +382,8 @@ button {
     width:1341px;
     height:322px;
     display:flex;
-    align-items: end;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
 }
 .nodeText{
@@ -536,6 +565,10 @@ ul{
         justify-content: center;
     }
     .heroButtonD{
+        display:none;
+     }
+     .heroButtonHoverD
+     {
         display:none;
      }
     .heroButtonM{
@@ -746,4 +779,25 @@ ul{
         white-space:nowrap;
     
     }
+
+    .flex-row {
+  flex-direction: row;
+}
+
+/* Style the kahc-container for initial flex column layout and transition */
+.kahc-container {
+  display: flex;
+  flex-direction: column; /* Initial flex column layout */
+  transition: all 0.3s ease; /* Add a transition for smooth animation */
+}
+
+/* Change the layout to flex row when the flex-row class is applied */
+.kahc-container.flex-row {
+  flex-direction: row; /* Flex row layout when the class is applied */
+}
+
+/* Apply transition properties to images for animation */
+.kahc-container img {
+  transition: transform 0.3s ease; /* You can customize this as needed */
+}
 }
