@@ -1,5 +1,5 @@
 console.log("your index file is loaded");
-console.log("Hi this is A");
+console.log("Hi this is Asraa");
 
 const heroBtn = document.querySelector(".heroBtn");
 const heroButtonD = document.querySelector(".heroButtonD");
