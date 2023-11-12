@@ -265,8 +265,8 @@ li{
 .content{
     width:546px;
     height:350px;
-    margin-top: 70px;
-    margin-left: 166px;
+    margin-top: 180px;
+    margin-left: 160px;
     margin-right: 728px;
 }
 
@@ -320,7 +320,7 @@ button {
     justify-content: space-evenly;
     justify-content: flex-start;
     position: relative;
-    margin-top: -15px;
+    margin-top: 160px;
     z-index: 0;
 }
 .doodleL{ 
@@ -344,7 +344,7 @@ button {
     justify-content: space-between;
     width: 1341px;
     height: 467px;
-    margin-top: 48px;
+    margin-top: 100px;
     transition: all 0.3s ease;
 }
 .kahcimage{
@@ -365,7 +365,7 @@ button {
     block-size: 170px;
     position: absolute;
     left: 0px;
-    top: 430px;
+    top: 620px;
     z-index: -1;
 }
 .cardText{
@@ -403,6 +403,7 @@ footer{
     background-color: #1e1e1e;
     width:auto;
     Height:215px;
+    margin-top: 30px;
 }
 .footerTitle{
     display: flex;
@@ -487,6 +488,58 @@ ul{
     white-space:nowrap;
 
 }
+@media only screen and (max-width:1200px) and (min-width:600px){
+    footer{
+        display:flex;
+        flex-direction: column;
+        padding-left:0px;
+        padding-right:0px;
+        background-color: #1e1e1e;
+        width:auto;
+        Height:auto;
+        justify-content: center;
+    }
+    .footerTitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        padding-left: auto;
+        padding-right: auto;
+        padding-top: 13px;
+    }
+    .footerul{
+        display:flex;
+        align-items: center;
+        padding-top: 0px;
+    }
+    
+    .FT1{
+        display:flex;
+        flex-direction: row;
+        margin:0px;
+    }
+    .FT2{
+        display:flex;
+        flex-direction: row;
+        margin:0px;
+        padding-left:10px;
+    }
+    ul{
+        display:flex;
+        float:right;
+        flex-direction: column;
+    }
+    .ulBottom{
+        margin:0px;
+        width:308px;
+        height:161px;
+        padding-left: auto;
+        padding-right: auto;
+        padding-top: 10px;
+        display:flex;
+        justify-content: flex-start;
+    }
+}
 @media only screen and (max-width:600px) and (min-width:320px){
     h1{
         font-size: 64px;
@@ -516,6 +569,9 @@ ul{
     
     .R7 {
         font-size: 18px;
+    }
+    .R10{
+        font-size: 16px;
     }
     .logo {
         margin-left: 18px;
@@ -559,7 +615,7 @@ ul{
     .content{
         width:auto;
         height:270px;
-        margin-top:600px;
+        margin-top:790px;
         margin-left: 18px;
         margin-right: 18px;
         justify-content: center;
@@ -606,7 +662,7 @@ ul{
         position: relative;
         margin-left: 18px;
         margin-right: 18px;
-        margin-top: 235px;
+        margin-top:350px;
         margin-bottom: 20px;
         z-index: 0;
     }
@@ -654,7 +710,7 @@ ul{
         block-size: 170px;
         position: absolute;
         left: 0px;
-        top: 770px;
+        top: 880px;
         z-index: -1;
     }
     .cardText{
