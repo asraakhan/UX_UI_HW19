@@ -833,27 +833,7 @@ ul{
         margin-left:10px;
         width:300px;
         white-space:nowrap;
-    
     }
 
-    .flex-row {
-  flex-direction: row;
-}
-
-/* Style the kahc-container for initial flex column layout and transition */
-.kahc-container {
-  display: flex;
-  flex-direction: column; /* Initial flex column layout */
-  transition: all 0.3s ease; /* Add a transition for smooth animation */
-}
-
-/* Change the layout to flex row when the flex-row class is applied */
-.kahc-container.flex-row {
-  flex-direction: row; /* Flex row layout when the class is applied */
-}
-
-/* Apply transition properties to images for animation */
-.kahc-container img {
-  transition: transform 0.3s ease; /* You can customize this as needed */
-}
+  
 }
