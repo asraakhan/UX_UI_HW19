@@ -81,4 +81,3 @@ resume.addEventListener("mouseleave", () => {
     resumeText.style.fontWeight = "600";
 
 } );
-

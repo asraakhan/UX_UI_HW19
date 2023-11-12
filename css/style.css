@@ -488,6 +488,9 @@ ul{
     white-space:nowrap;
 
 }
+.card:hover{
+     box-shadow: 6px 6px 50px rgb(68 68 68 / 0.10);
+}
 @media only screen and (max-width:1200px) and (min-width:600px){
     footer{
         display:flex;
@@ -574,6 +577,11 @@ ul{
         font-size: 16px;
     }
     .logo {
+        margin-left: 18px;
+        width:51px;
+        padding-bottom: 5px;
+    }
+    .logoHover {
         margin-left: 18px;
         width:51px;
         padding-bottom: 5px;
@@ -834,6 +842,4 @@ ul{
         width:300px;
         white-space:nowrap;
     }
-
-  
 }
